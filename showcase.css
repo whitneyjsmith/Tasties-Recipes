@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    color: #3f3f3f;
+}
+
+#header {
+    background-color: #fff;
+    font-size: 2em;
+    text-align: right;
+    padding: 0 .7em 0 1em;
+}
+
+#header a {
+    text-decoration: none;
+    color: inherit;
+    padding: .3em;
+    display: inline-block;
+}
+
+#sidebar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    min-height: 100%;
+    width: 15%;
+    float: left;
+    margin: 0;
+}
+
+#sidebar > div {
+
+}
+
+#menu > li > a:hover {
+    cursor: pointer;
+}
+
+#logo img {
+    height: .85em;
+}
+
+#logo {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+nav > .heading {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1em;
+    font-size: 1.05em;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li:hover {
+    background-color: #e8e8e8;
+}
+
+#main {
+    background-color: #f8f8f8;
+    float: left;
+    width: 85%;
+    padding-left: 1.5em;
+    padding-right: 1em;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+#main:first-child {
+    padding-top: 0;
+}
+
+#main p {
+    font-size: 1.02em;
+}
+
+#main p, #main h2 {
+    margin: 0 0 1em;
+}
+
+#content-wrapper {
+    width: 900px;
+    margin: 10px auto 0;
+    background-color: #fff;
+    padding: 0 20px 20px;
+}
+
+#content-wrapper h1, #content-wrapper h2 {
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 5px;
+}
+
+#ingredient-wrapper {
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 3px;
+}
+
+#directions-wrapper {
+    padding-top: 8px;
+}
+
+#content-wrapper > div {
+    margin-bottom: 2em;
+}
+
+/* auto resize food image */
+#main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#main-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body > hr {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 10px 1px black;
+}
+
+body > hr::after {
+    content: "\00a0";
+}
+
